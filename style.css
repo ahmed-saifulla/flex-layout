@@ -3,7 +3,6 @@ body {
 }
 
 .wrapper {
-  background-color: rgb(255, 161, 161);
   min-height: 100vh;
 
   display: flex;
@@ -37,7 +36,6 @@ body {
 
 .middle {
   flex-grow: 1;
-  background-color: green;
   display: flex;
 }
 
@@ -59,7 +57,6 @@ body {
 
 
 .middle .main{
-    background-color: yellow;
     flex-grow: 5;
     display: flex;
     flex-direction: column;
@@ -102,4 +99,7 @@ body {
 }
 
 .foot {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
