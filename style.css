@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-  background-color: red;
+  background-color: rgb(255, 161, 161);
   min-height: 100vh;
 
   display: flex;
@@ -37,6 +37,30 @@ body {
 
 .middle {
   flex-grow: 1;
+  background-color: green;
+  display: flex;
+}
+
+.middle .sidebar{
+    /* background-color: blue; */
+    flex-grow: 1;
+}
+
+
+.middle .sidebar ul{
+    /* background-color: blue; */
+    flex-grow: 1;
+    list-style-type: none;
+}
+
+.middle .sidebar ul li{
+    margin: 10px auto;
+}
+
+
+.middle .main{
+    background-color: yellow;
+    flex-grow: 5;
 }
 
 .foot {
