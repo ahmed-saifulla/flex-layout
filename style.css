@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: red;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+}
+
+.middle {
+  flex-grow: 1;
+}
+
+.foot {
+}
