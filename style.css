@@ -11,6 +11,28 @@ body {
 }
 
 .nav {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.nav .logo {
+  width: 50px;
+}
+
+.nav .items{
+    margin-left: auto;
+}
+
+
+.nav .items a{
+    padding: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav .items a:hover{
+    color: rgb(80, 80, 80);
 }
 
 .middle {
